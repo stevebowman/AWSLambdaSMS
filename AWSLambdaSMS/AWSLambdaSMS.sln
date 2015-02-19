@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PointlessSMS", "PointlessSMS\PointlessSMS.njsproj", "{49754157-91B4-4FCC-AF7F-65FC7667786B}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lambda", "PointlessSMS\Lambda.njsproj", "{49754157-91B4-4FCC-AF7F-65FC7667786B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSProcessor", "SMSProcessor\SMSProcessor.csproj", "{912D2466-5525-4368-B351-8A75C70176B3}"
 EndProject
