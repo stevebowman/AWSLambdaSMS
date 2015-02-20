@@ -1,4 +1,6 @@
-﻿console.log('Loading event');
+﻿// ReSharper disable UseOfImplicitGlobalInFunctionScope
+
+console.log('Loading event');
 
 // Twilio Credentials 
 var accountSid = '';
@@ -77,5 +79,6 @@ function SendSMS(to, body, completedCallback) {
     console.log('Twilio API call: ' + messageString);
     req.write(messageString);
     req.end();
-
 }
+
+// ReSharper restore UseOfImplicitGlobalInFunctionScope
