@@ -1,7 +1,7 @@
 ﻿using Amazon;
 using Amazon.Lambda;
-using System;
 using Amazon.Lambda.Model;
+using System;
 
 namespace SMSProcessor
 {
