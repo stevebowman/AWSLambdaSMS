@@ -34,6 +34,7 @@
     <Compile Include="HelloWorld.js" />
     <Compile Include="PointlessSMS.js" />
     <Compile Include="SimpleSMS.js" />
+    <Compile Include="SimpleSMSPointless.js" />
     <Content Include="README.md" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
