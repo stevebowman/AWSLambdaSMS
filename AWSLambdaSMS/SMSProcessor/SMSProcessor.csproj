@@ -71,6 +71,7 @@
   <ItemGroup>
     <Content Include="InvokeLambda.aspx" />
     <Content Include="SimpleSms.aspx" />
+    <Content Include="SimpleSmsPointless.aspx" />
     <Content Include="SmsToDynamoDb.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="SimpleSms.aspx.designer.cs">
       <DependentUpon>SimpleSms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleSmsPointless.aspx.cs">
+      <DependentUpon>SimpleSmsPointless.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimpleSmsPointless.aspx.designer.cs">
+      <DependentUpon>SimpleSmsPointless.aspx</DependentUpon>
     </Compile>
     <Compile Include="SmsToDynamoDb.aspx.cs">
       <DependentUpon>SmsToDynamoDb.aspx</DependentUpon>
