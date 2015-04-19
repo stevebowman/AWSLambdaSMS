@@ -24,7 +24,7 @@ namespace SMSProcessor
             // Use the preview endpoint so that we can make use of DynamoDb Streams to trigger
             // lambda functions.
             var config = new AmazonDynamoDBConfig();
-            config.ServiceURL = "https://preview-dynamodb.eu-west-1.amazonaws.com";
+            config.ServiceURL = "https://preview-dynamodb.us-east-1.amazonaws.com";
             IAmazonDynamoDB client = AWSClientFactory.CreateAmazonDynamoDBClient(config);
 
             // Add the SMS received to the Dynamo Db table,
